@@ -29,23 +29,18 @@
 This repository is an official PyTorch implementation of the ICLR 2025 paper 'Exploring Learning Complexity for Efficient Downstream Dataset Pruning'. The illustration of our algorithm core is shown as below:
 ![diagram](https://github.com/lygjwy/DLC/blob/main/figs/diagram.png)
 
-### Requirements
-```bash
-pip install -r requirements.txt
-```
-
 ### Pruning
 ```bash
-$ ./scripts/pruning.sh
+$ python main.py
 ```
 
 ### Tuning
 ```bash
-$ ./scripts/tuning.sh
+$ python sft.py
 ```
 
 ### Results
-![diagram](https://github.com/lygjwy/DLC/blob/main/figs/result-vision.png)
+![diagram](https://github.com/lygjwy/DLC/blob/main/figs/result-language.png)
 
 ## Citation
 If you find our repository useful for your research, please consider citing our paper:
